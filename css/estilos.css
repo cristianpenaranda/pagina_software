@@ -8,6 +8,10 @@ h2,h1{
     text-align: center;
 }
 
+p{
+    text-align: justify;
+}
+
 /**BARRA DE NAVEGACION**/
 .navbar{
     background: #aa1916;
@@ -74,6 +78,21 @@ footer img:hover{
 }
 
 #panel_principal{
-    margin: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
     border: 3px solid gray;
+}
+
+.panel_archivos{
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 3%;
+    border: 1px solid gray;
+}
+
+.panel_archivos img{
+    display: block;
+    margin: auto;
+    width: 20%;
 }
